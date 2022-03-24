@@ -2,6 +2,10 @@
     font-family: squids;
     src: url(../assets/fonts/game_of_squids.ttf);
 }
+@font-face {
+    font-family: valorant;
+    src: url(../assets/fonts/valorant.ttf);
+}
 body {
     background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.2)) ,url(../assets/img/1.jpg);
     background-repeat: no-repeat;
@@ -14,5 +18,32 @@ body {
     font-size: 90px;
     font-family: squids;
 }
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .invite {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid #9294f8;
+    font-family: valorant;
+}
+.invite:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+.navbar {
+    display:flex;
+    justify-content:first baseline;
+    color:white;
+    height:50px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar * {
+    display: inline;
+    height:50px;
+    margin-left:20px;
 }
