@@ -5,8 +5,19 @@
         <meta charset="utf-8">
         <title>Musx - The Discord bot</title>
         <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
+        <div class="spinner-wrapper">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
         <div class="navbar">
         <nav>
             <ul>
@@ -19,6 +30,17 @@
         <div class="center">
             <a href="https://discord.com/api/oauth2/authorize?client_id=952649023230197792&permissions=3155968&scope=bot"><button class="invite">Invite To Server</button></a>
         </div>
+        <script>
+            $(document).ready(function() {
+            //Preloader
+            preloaderFadeOutTime = 1000;
+            function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            });
+        </script>
     </body>
     <div class="center">
     <footer class="footer">
