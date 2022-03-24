@@ -1,0 +1,18 @@
+@font-face {
+    font-family: squids;
+    src: url(../assets/fonts/game_of_squids.ttf);
+}
+body {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.2)) ,url(../assets/img/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-family: squids;
+}
+.invite {
+}
