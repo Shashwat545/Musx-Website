@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Musx - The Discord bot</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="spinner-wrapper">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li style="margin-left: 0px;"><a class="hyperlink" href="index.html">Home</a></li>
+                    <li><a href="commands.html" class="hyperlink">Commands</a></li>
+                </ul>
+            </nav>
+        </div>
+        <script>
+            $(document).ready(function() {
+            //Preloader
+            preloaderFadeOutTime = 2000;
+            function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+            });
+        </script>
+    </body>
+    <footer>
+        <div class="center">
+            <footer class="footer">
+                <span class="left first">Musx © 2022</span>
+                <span class="left second">Design by <a href="https://github.com/Shashwat545" class="hyperlink"><b>Shashwat Singh</b></a></span>
+                <a href="https://github.com/Shashwat545/Musx"><img class="right github" alt="GitHub" src="assets/img/github.png"></a>
+            </footer>
+        </div>
+    </footer>
+</html>

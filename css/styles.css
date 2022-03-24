@@ -11,12 +11,17 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow: hidden;
 }
 .title {
     color: white;
     text-align: center;
     font-size: 90px;
     font-family: squids;
+}
+.hyperlink {
+    text-decoration: none;
+    color: inherit;
 }
 .center {
     display: flex;
