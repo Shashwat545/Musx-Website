@@ -13,6 +13,9 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+.white {
+    color: white;
+}
 .title {
     color: white;
     text-align: center;
@@ -141,4 +144,13 @@ body {
     bottom: 0;
     background-color: black;
     z-index: 999999;
+}
+.list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list * {
+    padding: 10px;
 }
