@@ -46,4 +46,35 @@ body {
     display: inline;
     height:50px;
     margin-left:20px;
+}.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+}
+.left {
+    position: absolute;
+    left: 10%;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.right {
+    position: absolute;
+    right: 10%;
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.first {
+    line-height: 60px;
+}
+.second {
+    line-height: 120px;
+}
+.github {
+    padding:20px;
 }
