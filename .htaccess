@@ -1,0 +1,6 @@
+#remove html file extension https://musx.me/index.html
+# to https://musx.me/index
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
