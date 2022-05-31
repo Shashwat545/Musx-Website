@@ -48,7 +48,7 @@ body {
     color:white;
     height:50px;
     line-height: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 .navbar * {
     display: inline;
@@ -69,13 +69,13 @@ body {
     position: absolute;
     left: 10%;
     font-size: 14px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 .right {
     position: absolute;
     right: 10%;
     font-size: 14px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 .first {
     line-height: 60px;
